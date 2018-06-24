@@ -21,11 +21,11 @@ The goals / steps of this project are the following:
 ### 1. Description of the Pipeline.
 
 ##### My pipeline consisted of 6 steps.
-1. Converted the images to grayscale,
+1. Converted the images to grayscale.
 2. Create the region of interest so the pipeline is only processing a region of the image.
-3. Hough Transform in the region created by the previous step. A hough transform identifies lines in the image. This outputted an array of points of the lines
+3. Hough Transform in the region created by the previous step. A hough transform identifies lines in the image. This outputted an array of points of the lines.
 4. Created 2 arrays left_lines and right_lines which took the previous step's output was sorted into.
-5. Took the average of the both line arrays's slope and y-intercepts
+5. Took the average of the both line array's slope and y-intercepts.
 6. Calculated starting points and end points and plotted the result to the image.
 
 ![alt text][image1]
