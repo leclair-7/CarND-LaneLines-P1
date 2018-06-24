@@ -12,7 +12,10 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/grayscale.jpg "Grayscale"
+[image1]: ./examples/gray.png "Grayscale"
+[image2]: ./examples/region-of-interest.png "Region"
+[image3]: ./examples/hough_transform.png "hough"
+[image4]: ./examples/pipeline_complete.png "Complete"
 
 ---
 
@@ -28,8 +31,14 @@ The goals / steps of this project are the following:
 5. Took the average of the both line array's slope and y-intercepts.
 6. Calculated starting points and end points and plotted the result to the image.
 
-![alt text][image1]
-
+#### Grayscale
+![Gray][image1]
+#### Region of Interest (and black everywhere else)
+![Region of Interest][image2]
+#### Hough Transform
+![Hough Transform][image3]
+#### Complete
+![Complete][image4]
 
 ### 2. Identify potential shortcomings with your current pipeline
 
